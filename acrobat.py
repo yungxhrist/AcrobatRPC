@@ -1,4 +1,4 @@
-from pypresence import Presence as ps, Activity
+from pypresence import Presence as ps
 from time import sleep as sp, time as tm
 import win32gui
 import win32process
@@ -26,5 +26,5 @@ rp = ps('553048619440275486')
 rp.connect()
 a = int(tm())
 while True:
-    rp.update(details=get_process(), start=a, large_text="peep main lee desd season 0.1", large_image="acrobat2", state='Ҳуҷҷати интиқоли ҳуҷҷат')
+    rp.update(details=get_process(), start=a, large_text="https://github.com/richhabitzreuter/AcrobatRPC", large_image="acrobat2", state='En train de lire')
     sp(5)
